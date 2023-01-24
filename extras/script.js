@@ -101,8 +101,7 @@ function renderHome() {
     categorySelect.setAttribute('id', 'quiz-select')
 
     categorySelect.appendChild(createChoice('HTML Basics'));
-    categorySelect.appendChild(createChoice('CSS Basics'));
-    categorySelect.appendChild(createChoice('JavaScript Basics'));
+    
 
     categoryDiv.appendChild(categoryLabel);
     categoryDiv.appendChild(categorySelect);
